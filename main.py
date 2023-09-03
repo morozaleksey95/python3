@@ -9,9 +9,7 @@ import datetime
 import httpx
 import pandas as pd
 
-from st_pages import Page, add_page_title, show_pages
 
-st.set_page_config(page_title="-Ae_help-", page_icon=":bar_chart:", layout="wide")
 
 
 def auth():
