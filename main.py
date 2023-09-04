@@ -51,10 +51,10 @@ def redirect_button(url: str, text: str = None, color="#FD504D"):
 
 def get_orders(start_date, stop_date):
     try:
-        url = 'http://www.corp.safaripark25.ru/test/api/rest.php'
-        params_for_orders = {'key': 'D7rj6KIyTvf6rhfXbbBU02AjSXYshVykmQFCRlAb',
+        url = 'xxx'
+        params_for_orders = {'key': 'xxx',
                              'username': 'admin',
-                             'password': '241717',
+                             'password': 'xxx',
                              'action': 'select',  # Метод
                              'entity_id': 28,  # раздел
                              'select_fields': '242,247,275,270,271,272,273,285,286,293,294,346,394,395,396,397,398,399,400,401,480,481',
@@ -73,10 +73,10 @@ def get_orders(start_date, stop_date):
 def get_products(id):
     # параметры для запроса
     try:
-        url = 'http://www.corp.safaripark25.ru/test/api/rest.php'
-        params_for_products = {'key': 'D7rj6KIyTvf6rhfXbbBU02AjSXYshVykmQFCRlAb',
+        url = 'xxx'
+        params_for_products = {'key': 'xxx',
                                'username': 'admin',
-                               'password': '241717',
+                               'password': 'xxx',
                                'action': 'select',  # метод - выборка
                                'entity_id': 29,  # сущность
                                'select_fields': '254,255,260,263,515',  # поля выборки
@@ -96,10 +96,10 @@ def get_products(id):
 def find_order_tel(tel_find):
     # параметры для запроса
     try:
-        url = 'http://www.corp.safaripark25.ru/test/api/rest.php'
-        params_for_orders = {'key': 'D7rj6KIyTvf6rhfXbbBU02AjSXYshVykmQFCRlAb',
+        url = 'xxx'
+        params_for_orders = {'key': 'xxx',
                              'username': 'admin',
-                             'password': '241717',
+                             'password': 'xxx',
                              'action': 'select',  # Метод
                              'entity_id': 28,  # раздел
                              'select_fields': '242,247,275,270,271,272,273,285,286,293,294,346,394,395,396,397,398,399,400,401,480,481',
