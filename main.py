@@ -120,7 +120,7 @@ def main():
     if authentication_status == False:
         st.error("Неверный логин или пароль")
     if authentication_status == None:
-        st.warning("Войдите в приложение")
+        st.warning("Войдите в систему")
 
     if authentication_status:
         nav = st.sidebar.container()
